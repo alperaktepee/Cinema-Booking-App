@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema Booking App</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="film-container">
+      <label>Film Seçiniz :</label>
+      <select id="film">
+        <option value="35">Van Gogh: Sonsuzluğun Kapısında</option>
+        <option value="28">İskoçya Kraliçesi Mary</option>
+        <option value="30">Woman at War</option>
+        <option value="27">Can Dostlar</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="koltuk"></div>
+        <small>Boş</small>
+      </li>
+      <li>
+        <div class="koltuk secildi"></div>
+        <small>Seçildi</small>
+      </li>
+      <li>
+        <div class="koltuk satildi"></div>
+        <small>Dolu</small>
+      </li>
+    </ul>
+    <div class="container">
+      <div class="perde"></div>
+      <div class="row">
+        <div class="koltuk"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk"></div>
+      </div>
+      <div class="row">
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+      </div>
+      <div class="row">
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+      </div>
+      <div class="row">
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+      </div>
+      <div class="row">
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+      </div>
+      <div class="row">
+        <div class="koltuk"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk satildi"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+      </div>
+    </div>
+    <p class="text">
+      <span id="say">0</span> koltuk seçtiniz. Fiyat :
+      <span id="ucret">0</span> TL
+    </p>
+    <script src="app.js"></script>
+  </body>
+</html>
